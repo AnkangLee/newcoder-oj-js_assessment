@@ -43,3 +43,11 @@
 ### 06 删除数组最后一个元素 **要求返回新数组**
 
 - 使用slice截取新数组 **注意: Array.prototype.slice是一级深拷贝
+
+### 07 添加元素 **要求返回新数组**
+
+#### v1
+- 使用slice函数返回一个新数组，然后unshift(item) **注意: Array.prototype.slice是一级深拷贝**
+
+#### v2
+- 使用concat,[item]添加原数组
