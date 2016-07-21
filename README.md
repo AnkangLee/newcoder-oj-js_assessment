@@ -35,7 +35,11 @@
 ### 05 添加元素 **要求返回新数组**
 
 #### v1
-- 使用slice函数返回一个新数组，然后push(item) **Array.prototype.slice是一级深拷贝**
+- 使用slice函数返回一个新数组，然后push(item) **注意: Array.prototype.slice是一级深拷贝**
 
 #### v2
 - 使用concat,添加item组成新数组
+
+### 06 删除数组最后一个元素 **要求返回新数组**
+
+- 使用slice截取新数组 **注意: Array.prototype.slice是一级深拷贝
