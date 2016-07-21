@@ -1,4 +1,4 @@
-# newcoder-oj-js_assessment
+ß# newcoder-oj-js_assessment
 
 ### 01 查找数组元素位置
 
@@ -11,7 +11,15 @@
 ### 02 数组求和
 
 #### v1
-- 可以eval函数简化代码，但是不推荐使用eval函数
+- 可以 **eval** 函数简化代码，但是不推荐使用eval函数
 
 #### v2
 - 使用数组的reduce函数，简化计算
+
+### 03 移除数组中的元素
+
+#### v1
+- 使用 **lodash** 中的_.pull(array, [values]方法
+
+#### v2
+- 使用数组的filter函数
