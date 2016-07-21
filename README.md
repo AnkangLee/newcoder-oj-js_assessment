@@ -1,9 +1,17 @@
 # newcoder-oj-js_assessment
 
-### 查找数组元素位置
+### 01 查找数组元素位置
 
 #### v1
 - 使用indexOf判断元素位置，但是无法判断NaN
 
-#### v1
+#### v2
 - 使用ES6 新增的api Array.findIndex Object.is 解决NaN问题
+
+### 02 数组求和
+
+#### v1
+- 可以eval函数简化代码，但是不推荐使用eval函数
+
+#### v2
+- 使用数组的reduce函数，简化计算
