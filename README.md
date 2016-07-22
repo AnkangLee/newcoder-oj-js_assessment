@@ -168,3 +168,11 @@
 ### 25 二次封装函数
 
 - 修改apply,call,bind的参数
+
+### 26 使用arguments
+
+#### v1
+- 使用Array.prototype.slice.call(arguments)构造数组(这里也可以使用ES6 api Array.from)，然后使用reduce求和
+
+#### v2
+- 直接使用[].reduce.call(arguments),注意[].reduce和Array.prototype.reduce恒等
