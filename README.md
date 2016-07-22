@@ -220,3 +220,7 @@
 ### 33 二进制转换
 
 - slice(-8)截取后8位
+
+### 34 乘法
+
+- 将求a和b两者小数点位数较长的问题转换为求a+b和的小数点位数，然后使用parseFloat(string).toFixed(number)
