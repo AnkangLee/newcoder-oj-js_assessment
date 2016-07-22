@@ -216,3 +216,7 @@
 
 #### v2
 - ES6版本Number.parseInt(string,2)
+
+### 33 二进制转换
+
+- slice(-8)截取后8位
