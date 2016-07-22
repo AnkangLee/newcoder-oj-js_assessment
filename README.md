@@ -1,4 +1,4 @@
-ß# newcoder-oj-js_assessment
+# (newcoder-oj-js_assessment)[http://www.nowcoder.com/ta/js-assessment]
 
 ### 01 查找数组元素位置
 
@@ -91,3 +91,11 @@
 
 #### v2
 - 使用map，更优雅的表达
+
+### 15 避免全局变量
+
+#### v1
+- ES5版本，使用var声明变量，避免全局变量
+
+#### v2
+- ES6版本，使用let代替var
