@@ -1,4 +1,5 @@
-# (newcoder-oj-js_assessment)[http://www.nowcoder.com/ta/js-assessment]
+# newcoder-oj-js_assessment
+(牛客网题目)[http://www.nowcoder.com/ta/js-assessment]
 
 ### 01 查找数组元素位置
 
@@ -107,3 +108,11 @@
 
 #### v2
 - ES6版本，支持块级作用域，函数本身的作用域,在其所在的块级作用域之内
+
+### 16 正确的函数定义
+
+#### v1
+- parseInt(string, [radix]),radix表示要解析的基数，如果不指定radix,字符串 string 以"0"开头, 基数是8（八进制）或者10（十进制），那么具体是哪个基数由实现环境决定。ECMAScript 5 规定使用10，但是并不是所有的浏览器都遵循这个规定。因此，**永远都要明确给出radix参数的值**
+
+#### v2
+- ES6版本，为了逐步减少全局性方法,使得语言逐步模块化，ES6 将全局方法 parseInt()和 parseFloat(),移植到 Number 对象上面,行为完全保持不变。
