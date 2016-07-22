@@ -176,3 +176,11 @@
 
 #### v2
 - 直接使用[].reduce.call(arguments),注意[].reduce和Array.prototype.reduce恒等
+
+### 27 柯里化
+
+#### v1
+- arguments.callee返回当前函数本身
+
+#### v2
+- 严格模式下不允许使用arguments.callee,这里使用函数表达式
