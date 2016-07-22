@@ -208,3 +208,11 @@
 
 #### v2
 - 通过bit算出正序的位置，减少split和reverse函数的花销
+
+### 32 二进制转换
+
+#### v1
+- ES5版本parseInt(string, 2)
+
+#### v2
+- ES6版本Number.parseInt(string,2)
