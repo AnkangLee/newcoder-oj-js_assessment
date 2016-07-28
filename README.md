@@ -1,5 +1,5 @@
 # newcoder-oj-js_assessment
-(牛客网题目)[http://www.nowcoder.com/ta/js-assessment]
+[牛客网题目](http://www.nowcoder.com/ta/js-assessment)
 
 ### 01 查找数组元素位置
 
